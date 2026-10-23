@@ -9,7 +9,7 @@ A static site, no build step or dependencies required. Open `index.html` in a br
 | File | Section |
 |---|---|
 | `index.html` | About Us — homepage, mission, land acknowledgment, foundational pillars, partners |
-| `recruitment.html` | Recruitment — eligibility, rush week schedule, application details, photo gallery |
+| `recruitment.html` | Recruitment — who can join, how to join the interest list, photo gallery (evergreen; no dated schedule) |
 | `projects-events.html` | Projects & Events — programming, service projects, partnerships |
 | `leadership.html` | Leadership — executive board & committee chairs |
 
@@ -23,19 +23,20 @@ A static site, no build step or dependencies required. Open `index.html` in a br
 ├── css/
 │   └── styles.css        # global styles (palette, layout, components)
 ├── js/
-│   └── script.js         # mobile nav toggle, recruitment countdown, footer year
+│   └── script.js         # mobile nav toggle, footer year
 ├── Headshots/             # board member headshots
-├── Images/                 # event, group, and gallery photos
+├── Images/                 # event, group, and gallery photos (incl. RainwaterGardenFlyer.webp)
+├── Documents/              # downloadable PDFs (Rainwater Garden grant overview)
 └── Logos/                  # chapter and partner organization logos
 ```
 
-## Updating recruitment dates
+## Updating recruitment
 
-The homepage banner and Recruitment page both show a live countdown to Rush Week. To update it for a future semester, edit the target date near the top of `js/script.js`:
+Recruitment is shown as an evergreen page. When the next round is scheduled, add the dates/flyers to `recruitment.html` (and remove them again afterwards).
 
-```js
-var rushDate = new Date("2026-09-14T00:00:00-07:00");
-```
+## Social embeds
+
+The homepage "Follow Along" section embeds the Instagram profile via `https://www.instagram.com/epsilonetauofa/embed`. LinkedIn does not allow company pages to be embedded, so it is shown as a link card. To feature a specific LinkedIn post, use that post's *Embed this post* code.
 
 ## Deploying with GitHub Pages
 
@@ -46,5 +47,5 @@ var rushDate = new Date("2026-09-14T00:00:00-07:00");
 ## Contact
 
 - Email: [arizonaepsiloneta@gmail.com](mailto:arizonaepsiloneta@gmail.com)
-- Instagram: [@epsilonetauofa](https://www.instagram.com/epsilonetauofa/)
-- LinkedIn: [Epsilon Eta, Tau Chapter](https://www.linkedin.com/company/epsilon-eta-tau-chapter/)
+- Instagram: [@epsilonetauofa](https://www.instagram.com/epsilonetauofa/?hl=en)
+- LinkedIn: [Epsilon Eta, Tau Chapter](https://www.linkedin.com/company/epsilon-eta-tau-chapter/home/)
