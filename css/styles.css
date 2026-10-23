@@ -22,8 +22,8 @@
   --nav-pill: rgba(255, 255, 255, 0.10);
   --nav-pill-hover: rgba(127, 160, 126, 0.38);
 
-  --font-serif: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
-  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Averia Serif Libre", Georgia, "Times New Roman", serif;
+  --font-sans: "Averia Serif Libre", Georgia, "Times New Roman", serif;
 
   --shadow-soft: 0 10px 30px rgba(28, 59, 43, 0.12);
   --shadow-card: 0 4px 18px rgba(28, 59, 43, 0.10);
